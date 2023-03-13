@@ -1,0 +1,124 @@
+<ol class="my-steps">
+<li>
+<a href="{{ section.settings.url1 }}" target="_blank">
+  <img src="{{ section.settings.banner1  | img_url: "master" }}">
+{{ section.settings.text1 }}</a>
+</li>
+<li>
+<a href="{{ section.settings.url2 }}"  target="_blank">
+  <img src="{{ section.settings.banner2  | img_url: "master" }}">
+{{ section.settings.text2 }}</a>
+</li>
+  <li>
+<a href="{{ section.settings.url3 }}"  target="_blank">
+  <img src="{{ section.settings.banner3  | img_url: "master" }}">
+{{ section.settings.text3 }}</a>
+</li>
+</ol>
+<style>
+ol.my-steps {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+padding: 0;
+}
+ol.my-steps li {
+    width: 33.33%;
+    border: 1px solid #e9e9e9;
+    border-radius: 9px;
+    box-shadow: 4px 2px 7px 1px #0000000d;
+    background: white;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+  position: relative;
+}
+ol.my-steps li img {
+    width: 31px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+  ol.my-steps {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    max-width: 700px;
+    margin: 0px auto 50px;
+}
+@media only screen and (max-width: 600px) {
+  ol.my-steps{
+       flex-direction: column;
+  }
+ol.my-steps li {
+    width: 100%;
+}
+}
+ol.my-steps li a:after {
+    background: #c32c2c00;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+</style>
+{% schema %}
+{
+  "name": "contact methods",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner1",
+      "label": "image"
+    },
+    {
+      "type": "url",
+      "id": "url1",
+      "label": "link"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner2",
+      "label": "image"
+    },
+    {
+      "type": "url",
+      "id": "url2",
+      "label": "link"
+    },
+    {
+      "type": "text",
+      "id": "text3",
+      "label": "heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner3",
+      "label": "image"
+    },
+    {
+      "type": "url",
+      "id": "url3",
+      "label": "link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "contact methods"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "4742801d-b7f5-473d-916e-6c43f84f3fde": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "liquid": "<style>\nsection#shopify-section-announcement-bar,\n#shopify-section-header,\nfooter#shopify-section-footer\n{\ndisplay:none;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bcafacde-070d-4bb0-a0c3-7c2f11973ac9": {
+      "type": "vipform",
+      "settings": {
+        "title": "Become a vendor",
+        "body": "Take your products literally to new heights with Just4Jets to an exclusive niche market of clientele that appreciate luxury and quality.  <br>\nOur vendors are partners and not just suppliers. We present and expose your quality products through our platform to a demographics with a disposable income that translates into new customers and repeat indirect business.\n<br>\n<b>Our boarding process is as easy as one, two, three and take off.<\/b><br>\n<ol class=\"my-steps\">\n<li>\n<div>1<\/div> Simply fill the form below<\/li>\n<li>\n<div>2<\/div> Our team will assess your products and will reach out to complete the boarding agreement.<\/li>\n<li>\n<div>3<\/div> Products selected are uploaded on our site and are available to our clients.<\/li>\n\n<\/ol>\n<style>\nol.my-steps {\n    display: flex;\n    list-style: none;\n    gap: 10px;\npadding: 0;\n}\nol.my-steps li {\n    width: 33.33%;\n    border: 1px solid #e9e9e9;\n    border-radius: 9px;\n    box-shadow: 4px 2px 7px 1px #0000000d;\n    background: white;\n    font-size: 16px;\n    padding: 20px;\n}\nol.my-steps li div {\n    font-weight: 600;\n    padding: 4px;\n    width: 48px;\n    height: 48px;\n    margin: auto;\n    font-size: 26px;\n    background: black;\n    color: white;\n    border-radius: 50px;\n    margin-bottom: 16px;\n}\n@media only screen and (max-width: 600px) {\n  ol.my-steps{\n       flex-direction: column;\n  }\nol.my-steps li {\n    width: 100%;\n}\n}\n<\/style>",
+        "formid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"NuLJenb0h1PGE-jp1H-aXg\"><\/div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4742801d-b7f5-473d-916e-6c43f84f3fde",
+    "bcafacde-070d-4bb0-a0c3-7c2f11973ac9"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "header-article": {
+      "type": "header-article",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed",
+        "height": "small",
+        "text_position_large": "start center",
+        "show_date": true,
+        "show_image": true,
+        "padding_top": 0.7,
+        "padding_bottom": 0.7,
+        "heading_size": "h1",
+        "image_style": "expand",
+        "image_padding": false,
+        "enable_parallax": false,
+        "overlay": 40,
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "author-date": {
+          "type": "author-date",
+          "settings": {
+            "show_author_image": false,
+            "show_author_name": false,
+            "show_date": true
+          }
+        },
+        "blog-post": {
+          "type": "blog-post",
+          "settings": {
+            "emphasize_first_letter": true
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "back_to_blog_label": "Back",
+            "back_to_blog_style": false,
+            "share_label": "Share",
+            "share_style": "secondary"
+          }
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_author_image": true,
+            "text_below_form": "<p>Read our <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a> and <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a>.<\/p>"
+          }
+        },
+        "previous-next-articles": {
+          "type": "previous-next-articles",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "author-date",
+        "blog-post",
+        "tags",
+        "buttons",
+        "comments",
+        "previous-next-articles"
+      ],
+      "settings": {
+        "layout": "fixed",
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "layout": "full",
+        "style_large": "grid",
+        "columns_large": "3",
+        "slider_mobile": true,
+        "blog": "",
+        "limit": 3,
+        "image_ratio": "landscape",
+        "image_width": "1",
+        "image_padding": false,
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_heading_text": false,
+        "title": "Related posts",
+        "heading_size": "h2",
+        "text": "",
+        "text_style": "large-body-text",
+        "center_body_text": false,
+        "show_image": true,
+        "show_excerpt": false,
+        "show_author_image": false,
+        "show_author_name": false,
+        "show_date": true,
+        "show_tags": true,
+        "enable_view_all": false,
+        "view_all_large": "bottom",
+        "view_all_mobile": "top",
+        "view_all_link": "",
+        "view_all_label": "",
+        "soft_background": "section",
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "baedf8f8-f5fe-4fa6-a3a4-7b37e5e1c7e7": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "liquid": "<style>\n.article-previous-next-links {\n    display: none;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2f5788ef-cc3c-4f38-be45-e9c6bc8c3e35": {
+      "type": "job_details",
+      "settings": {
+        "blog": "",
+        "banner-info": "",
+        "link1": ""
+      }
+    }
+  },
+  "order": [
+    "header-article",
+    "main",
+    "blog-posts",
+    "baedf8f8-f5fe-4fa6-a3a4-7b37e5e1c7e7",
+    "2f5788ef-cc3c-4f38-be45-e9c6bc8c3e35"
+  ]
+}

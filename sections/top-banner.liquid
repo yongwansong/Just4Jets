@@ -1,0 +1,60 @@
+<div class="bots-bg">
+<div class="top-banner-new">
+
+  <div class="my-flex wib-con">
+  <div class="col-flex col-1 ">
+    <div class="float-dx">
+    <h1>{{ section.settings.banner-title }}</h1>
+    <p>{{ section.settings.banner-info}}</p>
+   <div class="my-flex banner-btn">
+     <a href="{{ section.settings.link1}}"><div>read more</div></a>
+     <a href="{{ section.settings.link2}}"><div>shop now</div></a>
+   </div>
+    </div>
+    </div>
+   <div class="col-flex col-2">
+     <img src="{{ section.settings.image_url | img_url: "master" }}">
+   </div>
+  </div>
+    </div>
+</div>
+<img src="https://cdn.shopify.com/s/files/1/0552/1414/5665/files/image_2022_10_28T12_04_24_264Z.png?v=1667195475" width="100%">
+
+{% schema %}
+{
+  "name": "TOP BANNER",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "banner-title",
+      "label": "banner title"
+    },
+    {
+      "type": "text",
+      "id": "banner-info",
+      "label": "Information"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "link 1"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "link 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_url",
+      "label": "side image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TOP BANNER"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "d85297ea-e794-42a7-91e7-3b65d377d864": {
+      "type": "about_top",
+      "disabled": true,
+      "settings": {
+        "mttext": "job board",
+        "banner": "shopify:\/\/shop_images\/positive-message-letter-board.jpg"
+      }
+    },
+    "399cb198-831c-4ecb-9876-332e818583bc": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-0": {
+          "type": "category",
+          "settings": {
+            "title": "Category 1"
+          }
+        },
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-1": {
+          "type": "row",
+          "settings": {
+            "title": "Collapsible row",
+            "text": "<p>Write any kind of text for your collapsible content. It can be an answer to a frequently asked question, a body of text that explains your store policy, or whatever else you wish!<\/p>",
+            "page": ""
+          }
+        },
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-2": {
+          "type": "category",
+          "settings": {
+            "title": "Category 2"
+          }
+        },
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-3": {
+          "type": "row",
+          "settings": {
+            "title": "Collapsible row",
+            "text": "<p>Write any kind of text for your collapsible content. It can be an answer to a frequently asked question, a body of text that explains your store policy, or whatever else you wish!<\/p>",
+            "page": ""
+          }
+        },
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-4": {
+          "type": "row",
+          "settings": {
+            "title": "Collapsible row",
+            "text": "<p>Write any kind of text for your collapsible content. It can be an answer to a frequently asked question, a body of text that explains your store policy, or whatever else you wish!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-0",
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-1",
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-2",
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-3",
+        "template--14454180216961__399cb198-831c-4ecb-9876-332e818583bc-1667389311283c2832-4"
+      ],
+      "settings": {
+        "layout": "full",
+        "row_style": "1st-open",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_heading_text": true,
+        "title": "Collapsible content",
+        "heading_size": "h2",
+        "text": "",
+        "text_style": "large-subtext",
+        "center_body_text": false,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "9a320328-cadf-49e7-bc53-4124d9844f36": {
+      "type": "jobBoard",
+      "disabled": true,
+      "settings": {
+        "blog": "job",
+        "banner-info": "",
+        "link1": ""
+      }
+    },
+    "d7f92139-b773-4aed-9fec-b6fc2f780dd9": {
+      "type": "job2",
+      "settings": {
+        "blog": "job",
+        "banner-info": "",
+        "link1": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d85297ea-e794-42a7-91e7-3b65d377d864",
+    "399cb198-831c-4ecb-9876-332e818583bc",
+    "9a320328-cadf-49e7-bc53-4124d9844f36",
+    "d7f92139-b773-4aed-9fec-b6fc2f780dd9"
+  ]
+}

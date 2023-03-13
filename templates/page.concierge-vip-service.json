@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "4742801d-b7f5-473d-916e-6c43f84f3fde": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "liquid": "<style>\nsection#shopify-section-announcement-bar,\n#shopify-section-header,\nfooter#shopify-section-footer\n{\ndisplay:none;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bcafacde-070d-4bb0-a0c3-7c2f11973ac9": {
+      "type": "vipform",
+      "settings": {
+        "title": "Concierge VIP Service",
+        "body": "Just4Jets Concierge service is designed to take your flight to the next level. Whether its Ultra luxury requests, customization of provisions or simply a birthday celebration set up, Our specialized concierge team (VVIP Cabin crew) team will work closely to fulfil your demands. <br>\nSimply complete the form below and we will revert to you within an hour.",
+        "formid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"iVRil5kmf5gEU_xU8deqTg\"><\/div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4742801d-b7f5-473d-916e-6c43f84f3fde",
+    "bcafacde-070d-4bb0-a0c3-7c2f11973ac9"
+  ]
+}

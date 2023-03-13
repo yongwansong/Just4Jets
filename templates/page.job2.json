@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061C2F",
+        "color_accent": "#0D91BD",
+        "color_background": "#FFFFFF",
+        "color_gradient": ""
+      }
+    },
+    "c2c4d461-147f-4411-b715-63104bb0623e": {
+      "type": "job2",
+      "settings": {
+        "blog": "job",
+        "banner-info": "",
+        "link1": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c2c4d461-147f-4411-b715-63104bb0623e"
+  ]
+}

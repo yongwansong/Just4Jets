@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "d46f97da-0c22-450f-8238-340552de3861": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Courses & Hacks",
+            "size": "h0"
+          }
+        },
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just4Jets will beconducting courses throughout 2023. Refresher courses and familiarization for first timers. <\/p><p>The courses will range in discipline, from Cabin crew training, service training, Safety, security training and first aid. These courses will be conducted by our certified Just4Jets team and alongside other approved aviation academies. <\/p><p>Stay tuned and follow our news and social media channels for  updates.  Hacks<\/p><p>These hacks are brought to you from across the globe by dedicated and passionate vip crew to simplify the way you operate. <\/p><p>Nothing is more pleasurable than a good hack. <\/p>",
+            "style": "small-subtext"
+          }
+        },
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-0": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "icon-store",
+            "reveal": true
+          }
+        },
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "first_button_label": "",
+            "first_button_link": "",
+            "first_button_style": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-1",
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-2",
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-0",
+        "template--14455331946625__d46f97da-0c22-450f-8238-340552de3861-1667559699f5c48155-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_position": "center center",
+        "overlay": 30,
+        "image_height_large": "medium",
+        "image_height_mobile": "medium",
+        "enable_parallax": false,
+        "padding_top": 1,
+        "padding_bottom": 0,
+        "soft_background": false,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "full",
+        "columns_large": "3",
+        "image_ratio": "square",
+        "image_width": "1",
+        "image_padding": true,
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_heading_text": true,
+        "center_body_text": true,
+        "show_image": true,
+        "show_excerpt": false,
+        "show_author_image": false,
+        "show_author_name": false,
+        "show_date": true,
+        "show_tags": true,
+        "soft_background": "none",
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "8f59bbea-a26c-469c-9b24-39f61181fea0": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<style>\nheader.section-heading.section-heading--centered {\n    display: none;\n}\ndiv#shopify-section-template--14455331946625__main .section-vertical-spacer.container {\n    background: unset;\n}\n.rich-text.rich-text--large-contained {\n    max-width: 100%;\n}\n.small-subtext.rte p {\n    text-transform: capitalize;\n    margin-top: -9px;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "d46f97da-0c22-450f-8238-340552de3861",
+    "main",
+    "8f59bbea-a26c-469c-9b24-39f61181fea0"
+  ]
+}

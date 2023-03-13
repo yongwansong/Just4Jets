@@ -1,0 +1,40 @@
+<div class="sec-five" style="background:url({{  section.settings.col1 | img_url: "master"  }})">
+  <div class="sec-five-text" >
+    <h1>{{ section.settings.text1 }}</h1>
+     <p>{{ section.settings.text2 }}</p>
+    <a href="{{ section.settings.link1 }}">Read more</a>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Vendor",
+  "tag": "section",
+  "settings": [
+     {
+      "type": "image_picker",
+      "id": "col1",
+      "label": " image"
+    },
+   {
+      "type": "text",
+      "id": "text1",
+      "label": "title"
+    },
+    {
+      "type": "html",
+      "id": "text2",
+      "label": "info"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vendor"
+    }
+  ]
+}
+{% endschema %}

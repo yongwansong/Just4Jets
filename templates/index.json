@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "b8197319-9e2e-4a10-b43e-7634e84d089e": {
+      "type": "top-banner",
+      "settings": {
+        "banner-title": "JET PROVISIONS",
+        "banner-info": "Just4Jets is set out to redefine the way you order for your discerning clients without the limitation on selction from airport catering and without the lavish handling fees.",
+        "link1": "shopify:\/\/pages\/about-us",
+        "link2": "shopify:\/\/collections\/all",
+        "image_url": "shopify:\/\/shop_images\/AdobeStock_30683846.jpg"
+      }
+    },
+    "9746971d-e4ca-4cab-bbb3-c471665bdfc8": {
+      "type": "featured-collection",
+      "settings": {
+        "layout": "fixed-soft",
+        "collection": "featured-products",
+        "limit": 12,
+        "slider_large": true,
+        "slider_mobile": true,
+        "columns_large": "4",
+        "columns_mobile": "2",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_text": false,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "text": "",
+        "text_style": "large-body-text",
+        "enable_view_all": false,
+        "view_all_large": "bottom",
+        "view_all_mobile": "top",
+        "view_all_link": "",
+        "view_all_label": "",
+        "image_container_ratio": "square",
+        "fit_image_to_container": true,
+        "image_padding": 5,
+        "enable_second_image_on_hover": true,
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "3b99cf57-fe59-4a10-ac77-7edb6d12d09c": {
+      "type": "collection_list",
+      "settings": {
+        "col1": "shopify:\/\/shop_images\/Screen_Shot_2022-11-07_at_3.36.43_pm.png",
+        "text1": "FOOD & BEVERAGE",
+        "link1": "shopify:\/\/collections\/food-beverage-1",
+        "col2": "shopify:\/\/shop_images\/240_F_72932243_Sw9a5zk4XXAvOiGA6ePWJSrkrqI0mZv4.jpg",
+        "text2": "CABIN PROVISIONS",
+        "link2": "shopify:\/\/collections\/crew-amenities",
+        "col3": "shopify:\/\/shop_images\/240_F_486113438_S8nvW7fSg0CTd1sxDz7TxxiAT56HAa8J.jpg",
+        "text3": "GALLEY & SERVICE",
+        "link3": "shopify:\/\/collections\/galley-service-provisions",
+        "col4": "shopify:\/\/shop_images\/240_F_491662782_FEaOpNKu2Xtr1Xo908REIatr6GPAGAv7.jpg",
+        "text4": "PASSENGER PROVISIONS",
+        "link4": "shopify:\/\/collections\/passenger-provisions",
+        "col5": "shopify:\/\/shop_images\/240_F_232158601_2IRvDFjOMc0TsSkURs31a9YjDS00Q2BJ.jpg",
+        "text5": "CREW PROVISIONS",
+        "link5": "shopify:\/\/collections\/crew-amenities"
+      }
+    },
+    "f4f81f0c-1c6c-4696-ad03-1fb0d4917b08": {
+      "type": "service",
+      "settings": {
+        "col1": "shopify:\/\/shop_images\/AdobeStock_314371263.jpg",
+        "col2": "shopify:\/\/shop_images\/AdobeStock_290143640_c159921c-0550-4b50-9fad-0f10c9cb9901.jpg",
+        "col3": "shopify:\/\/shop_images\/AdobeStock_424177406.jpg",
+        "col4": "shopify:\/\/shop_images\/AdobeStock_209593584.jpg",
+        "text1": "<span>C<\/span>ONCIERGE SERVICE",
+        "text2": "Our Concierge VIP Service team will work closely to fulfil all private requests ranging from Birthday celebrations to pet specifics needs, no matter whether the flight is for business or pleasure.",
+        "link1": "shopify:\/\/pages\/concierge-vip-service"
+      }
+    },
+    "d5282ba8-5658-453d-93d1-f572b29a404e": {
+      "type": "aboutus",
+      "settings": {
+        "banner-title": "<span>About<\/span> us",
+        "banner-info": "Just4Jets is based in Dubai and is the regions first online fulfilment platform that exclusively caters for Private Jets and charter flights.",
+        "link1": "shopify:\/\/pages\/about-us",
+        "image_url": "shopify:\/\/shop_images\/Boxes_on_Tarmac.png"
+      }
+    },
+    "4de1b3f5-39cc-4c71-b1dc-cd82f7ab9109": {
+      "type": "job_job",
+      "settings": {
+        "textline": "CLICK HERE TO UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE TO UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE TO UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE TO UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE TO  UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span> CLICK HERE TO UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span>UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <span><\/span>",
+        "link": "shopify:\/\/pages\/freelancing"
+      }
+    },
+    "4e598bbe-8338-4404-aa76-ee3a862863c4": {
+      "type": "blog_news",
+      "settings": {
+        "blog": "blogs",
+        "text1": "NEWS <span>&<\/span> BLOGS",
+        "info": "We have created the Just4Jets community space where crew can share their professional experience and visit our Hacks, blogs and aviation news on the go.",
+        "link1": "shopify:\/\/blogs\/blogs"
+      }
+    },
+    "718bf539-04de-4006-aacc-e3ec96b1515f": {
+      "type": "vendor",
+      "settings": {
+        "col1": "shopify:\/\/shop_images\/filling-wine-glasses.jpg",
+        "text1": "Become a VENDOR",
+        "text2": "TAKE YOUR PRODUCTS<br>\nLITERALLY TO NEW HEIGHTS",
+        "link1": "shopify:\/\/pages\/become-a-vendor"
+      }
+    }
+  },
+  "order": [
+    "b8197319-9e2e-4a10-b43e-7634e84d089e",
+    "9746971d-e4ca-4cab-bbb3-c471665bdfc8",
+    "3b99cf57-fe59-4a10-ac77-7edb6d12d09c",
+    "f4f81f0c-1c6c-4696-ad03-1fb0d4917b08",
+    "d5282ba8-5658-453d-93d1-f572b29a404e",
+    "4de1b3f5-39cc-4c71-b1dc-cd82f7ab9109",
+    "4e598bbe-8338-4404-aa76-ee3a862863c4",
+    "718bf539-04de-4006-aacc-e3ec96b1515f"
+  ]
+}

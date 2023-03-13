@@ -1,0 +1,102 @@
+<div class="about-sec-one">
+<img src="{{ section.settings.banner | img_url: "master" }}">
+  <div class="float-text"><h1>{{ section.settings.mttext }}</h1>
+  </div>
+<svg id="botton-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f7f7" fill-opacity="1" d="M0,96L40,96C80,96,160,96,240,101.3C320,107,400,117,480,133.3C560,149,640,171,720,202.7C800,235,880,277,960,293.3C1040,309,1120,299,1200,266.7C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+</div>
+  <style>
+    h2.h0 {
+    position: relative;
+}
+    h2.h0:before {
+    background: black;
+    content: '';
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+   #MainContent li, #MainContent p {
+    font-size: 17px;
+}
+   section#shopify-section-template--14453563424897__754bbd6b-0454-4384-b1a7-9dd33c7556dd .block.color.color-default {
+    background: #f7f7f7;
+    color: black;
+}
+/*    section#shopify-section-template--14453563424897__754bbd6b-0454-4384-b1a7-9dd33c7556dd  .section-vertical-spacer.container.container--capped {
+    background: url(https://cdn.shopify.com/s/files/1/0552/1414/5665/files/shutterstock_2168729047_1_3.png?v=1667193860);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 260px;
+} */
+    div#ImageWithText-template--14453563424897__c222c843-3c31-401e-b949-02683a155636-16672987997e51de35-0{
+      background: url(https://cdn.shopify.com/s/files/1/0552/1414/5665/files/shutterstock_2168729047_1_3.png?v=1667193860);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 260px;
+    }
+    .my-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+    .media-with-text__media-wrapper.border-radius:nth-child(1) {
+    border-radius: 12% 75% 12% 76%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .float-text h1 {
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+    svg#botton-curve {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  .about-sec-one img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+  .about-sec-one {
+    position: relative;
+}
+  .float-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+  </style>
+{% schema %}
+{
+  "name": "about us top banner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "mttext",
+      "label": "heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner",
+      "label": "banner image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "about us top banner"
+    }
+  ]
+}
+{% endschema %}

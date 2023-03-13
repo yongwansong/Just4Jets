@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "be82b95d-1c44-4a1f-8286-bbd11846b740": {
+      "type": "about_top",
+      "disabled": true,
+      "settings": {
+        "mttext": "FREELANCE ",
+        "banner": "shopify:\/\/shop_images\/Boxes_on_Tarmac.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "1796d9af-ef65-474d-9d9c-d5f6a59d697a": {
+      "type": "contact-form",
+      "disabled": true,
+      "blocks": {
+        "template--14454180184193__1796d9af-ef65-474d-9d9c-d5f6a59d697a-1667387138f0a57121-0": {
+          "type": "text-field",
+          "settings": {
+            "required": true,
+            "multi_line_field": false,
+            "title": "Name"
+          }
+        },
+        "14a40da9-968b-4c57-9cb0-0731f8375b7b": {
+          "type": "text-field",
+          "settings": {
+            "required": false,
+            "multi_line_field": false,
+            "title": "Age"
+          }
+        },
+        "77d95cd4-7023-4c5f-b67a-942e139dcf65": {
+          "type": "dropdown-menu",
+          "settings": {
+            "required": true,
+            "title": "Sector",
+            "options": "Option 1, Option 2, Option 3"
+          }
+        },
+        "3ee5f25a-b376-4c2d-aa1e-84238943f78c": {
+          "type": "dropdown-menu",
+          "settings": {
+            "required": true,
+            "title": "Gender",
+            "options": "Male, Female"
+          }
+        }
+      },
+      "block_order": [
+        "template--14454180184193__1796d9af-ef65-474d-9d9c-d5f6a59d697a-1667387138f0a57121-0",
+        "14a40da9-968b-4c57-9cb0-0731f8375b7b",
+        "77d95cd4-7023-4c5f-b67a-942e139dcf65",
+        "3ee5f25a-b376-4c2d-aa1e-84238943f78c"
+      ],
+      "settings": {
+        "layout": "full",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_heading_text": true,
+        "title": "",
+        "heading_size": "h2",
+        "text": "<p>UPLOAD YOUR CV IF YOU ARE LOOKING FOR A FREELANCE JOB <\/p>",
+        "text_style": "large-subtext",
+        "image": "shopify:\/\/shop_images\/istockphoto-163031116-612x612.jpg",
+        "image_height_large": "medium",
+        "image_height_mobile": "medium",
+        "form_first": false,
+        "soft_background": "none",
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "3634dcbf-7953-4475-bb77-438b371f1913": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14454180184193__3634dcbf-7953-4475-bb77-438b371f1913-16676237951a036e46-0": {
+          "type": "block",
+          "settings": {
+            "large_layout": "text-first",
+            "mobile_layout": "image-first",
+            "image": "shopify:\/\/shop_images\/crew.jpg",
+            "image_padding": false,
+            "video": "",
+            "video_style": "image-play",
+            "enable_parallax": false,
+            "tab_label": "",
+            "subheading": "",
+            "title": "Register for Freelancing",
+            "text": "<p>At Just4Jets our mission is to simplify tasks but also bring the community together by connecting recruiting charter companies and private jet owners directly with potential VIP candidates without the additional cost imposed by recruiters on charter companies and owners. <\/p><p>This allows a transparent process that is reliable, economical and fast. All you need to do is fill the below form and upload your current CV and leave the matching for us.<\/p>",
+            "text_size": "medium",
+            "first_button_label": "",
+            "first_button_link": "",
+            "first_button_outline_style": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_outline_style": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14454180184193__3634dcbf-7953-4475-bb77-438b371f1913-16676237951a036e46-0"
+      ],
+      "settings": {
+        "layout": "full",
+        "height": "medium",
+        "stack_blocks": false,
+        "center_tabs": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "b7851b1f-600f-4235-b3c5-c79080457fdf": {
+      "type": "freelancing",
+      "settings": {
+        "title": "",
+        "body": ""
+      }
+    },
+    "7478ff69-cd8d-4380-af19-ca49a1f301ee": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<style>\n.media-with-text__media:not(.media-with-text__media--transparent):not(.media-with-text__media--fit) {\n    background-color: unset;\n}\n@media (min-width: 751px){\n.media-with-text__media--fill>*, .media-with-text__media--expand>* {\n    object-fit: contain;\n}}\n<\/style>",
+        "layout": "full",
+        "padding_top": 1,
+        "padding_bottom": 1
+      }
+    }
+  },
+  "order": [
+    "be82b95d-1c44-4a1f-8286-bbd11846b740",
+    "main",
+    "1796d9af-ef65-474d-9d9c-d5f6a59d697a",
+    "3634dcbf-7953-4475-bb77-438b371f1913",
+    "b7851b1f-600f-4235-b3c5-c79080457fdf",
+    "7478ff69-cd8d-4380-af19-ca49a1f301ee"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "small-subtext",
+            "uppercase": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_breadcrumbs": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_unavailable_variants_indicator": true,
+            "option_type": "button",
+            "color_option_type": "button"
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity-selector",
+          "settings": {}
+        },
+        "stock-availability": {
+          "type": "stock-availability",
+          "disabled": true,
+          "settings": {
+            "hide_in_stock_label": true,
+            "icon_style": "default",
+            "low_inventory_threshold": 3,
+            "enable_label_colors": false,
+            "color_in_stock": "#428445",
+            "color_low_stock": "#ffb800",
+            "color_no_stock": "#ff0000"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_dynamic_checkout_buttons": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "style": "button-and-icons",
+            "text": "Share me with crew",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "title",
+        "price",
+        "description",
+        "variant-picker",
+        "quantity-selector",
+        "stock-availability",
+        "buy-buttons",
+        "share"
+      ],
+      "settings": {
+        "layout": "full",
+        "enable_sticky_media_large": true,
+        "media_thumbnails_position_large": "left",
+        "enable_thumbnails_mobile": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "animation": "fade",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "layout": "full",
+        "limit": 4,
+        "slider_large": true,
+        "slider_mobile": true,
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_text": false,
+        "title": "<span>You <\/span> may also like",
+        "image_container_ratio": "square",
+        "fit_image_to_container": false,
+        "image_padding": 5,
+        "enable_second_image_on_hover": true,
+        "color_scheme": "inverse",
+        "custom_colors": true,
+        "color_foreground": "#000000",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "5593bb3a-3f67-45d0-9b26-0152ccec72ac": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<style>\nheader.section-heading {\n    position: relative;\n}\n.main-product__blocks h1 {\n    font-size: 22px;\n}\n.price.price--show-badge {\n    font-size: 20px;\n}\n.rte.small-body-text {\n    font-size: 15px;\n}\nh2.section-heading__heading span {\n    background: black;\n    color: white;\n    padding: 0px 13px;\n}\nul.featured-collection li {\n    border: 1px solid #e9e9e9;\n    border-radius: 9px;\n    box-shadow: 4px 2px 7px 1px #0000000d;\n}\n@media (hover: hover){\n.card:hover .card__title {\n    text-decoration: none;\n}\n}\nh2.section-heading__heading {\nfont-weight: 600;\n    font-size: 50px !important;\n    text-transform: capitalize;\n}\n.main-product__blocks h1 {\n    font-size: 37px;\n    font-weight: 600;\n    line-height: 29px;\n    letter-spacing: 0px;\n}\n.small-body-text  h3 {\n    font-size: 30px;\n    font-weight: 600;\n}\n.product-form__buttons button {\n    font-weight: 900;\n    font-family: 'horizondisplay';\n    text-transform: uppercase;\n    font-size: 19px;\n    letter-spacing: 3px;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "5593bb3a-3f67-45d0-9b26-0152ccec72ac"
+  ]
+}

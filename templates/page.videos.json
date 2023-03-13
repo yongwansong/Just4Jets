@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "fixed-soft",
+        "width": "medium",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "show_heading": true,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "4cfad129-f07f-4286-a738-9f43d2e47bed": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<h1>Videos<\/h1>",
+        "layout": "full",
+        "padding_top": 1,
+        "padding_bottom": 1
+      }
+    },
+    "91b1c25f-e79b-4c5e-a053-437e9efdf192": {
+      "type": "video",
+      "blocks": {
+        "e37931d9-5b24-4822-9370-979879cf857f": {
+          "type": "buttons",
+          "settings": {
+            "video_button_link": "https:\/\/www.youtube.com\/watch?v=ua4oFVz39vM",
+            "video_button_label": "",
+            "video_button_style": false,
+            "button_label": "",
+            "button_link": "",
+            "button_style": false
+          }
+        },
+        "d35a4074-b38d-4084-8269-8868609044be": {
+          "type": "heading",
+          "settings": {
+            "title": "Tell your brand story",
+            "size": "h1"
+          }
+        },
+        "f060c203-3e60-4f6d-8bb5-94e211fe0523": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add defails on availability, style, or even provide a review.<\/p>",
+            "style": "small-subtext"
+          }
+        }
+      },
+      "block_order": [
+        "e37931d9-5b24-4822-9370-979879cf857f",
+        "d35a4074-b38d-4084-8269-8868609044be",
+        "f060c203-3e60-4f6d-8bb5-94e211fe0523"
+      ],
+      "settings": {
+        "layout": "full",
+        "height_large": "16-9",
+        "height_mobile": "medium",
+        "text_position": "center center",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "video": "https:\/\/www.youtube.com\/watch?v=ua4oFVz39vM",
+        "overlay": 40,
+        "color_foreground": "#ffffff",
+        "color_accent": "#ffffff",
+        "color_background": "#061c2f"
+      }
+    },
+    "272d633d-ded0-49b8-938a-d4bcdc5af806": {
+      "type": "video",
+      "blocks": {
+        "template--14454064382081__272d633d-ded0-49b8-938a-d4bcdc5af806-1667368819074636ae-2": {
+          "type": "buttons",
+          "settings": {
+            "video_button_link": "https:\/\/www.youtube.com\/watch?v=ua4oFVz39vM",
+            "video_button_label": "",
+            "video_button_style": false,
+            "button_label": "",
+            "button_link": "",
+            "button_style": false
+          }
+        },
+        "81b1728f-408b-4e49-a04d-675cd28828a2": {
+          "type": "heading",
+          "settings": {
+            "title": "Tell your brand story",
+            "size": "h1"
+          }
+        },
+        "78d5ff2f-8c84-4927-aef3-a228700e7d3d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add defails on availability, style, or even provide a review.<\/p>",
+            "style": "small-subtext"
+          }
+        }
+      },
+      "block_order": [
+        "template--14454064382081__272d633d-ded0-49b8-938a-d4bcdc5af806-1667368819074636ae-2",
+        "81b1728f-408b-4e49-a04d-675cd28828a2",
+        "78d5ff2f-8c84-4927-aef3-a228700e7d3d"
+      ],
+      "settings": {
+        "layout": "full",
+        "height_large": "16-9",
+        "height_mobile": "medium",
+        "text_position": "center center",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "video": "https:\/\/www.youtube.com\/watch?v=ua4oFVz39vM",
+        "overlay": 40,
+        "color_foreground": "#ffffff",
+        "color_accent": "#ffffff",
+        "color_background": "#061c2f"
+      }
+    },
+    "fc0f7640-e705-4241-b713-09a55119ac84": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<style>\n.banner.banner-mobile--medium.banner-large--medium {\n    border: 1px solid #e9e9e9;\n    border-radius: 9px;\n    box-shadow: 4px 2px 7px 1px #0000000d;\n    overflow: hidden;\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "90174e4c-e9fe-4548-9c06-38e2ea45cc25": {
+      "type": "my-videos",
+      "disabled": true,
+      "settings": {
+        "text1": "",
+        "url1": "",
+        "text2": "",
+        "url2": "",
+        "text3": "",
+        "url3": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4cfad129-f07f-4286-a738-9f43d2e47bed",
+    "91b1c25f-e79b-4c5e-a053-437e9efdf192",
+    "272d633d-ded0-49b8-938a-d4bcdc5af806",
+    "fc0f7640-e705-4241-b713-09a55119ac84",
+    "90174e4c-e9fe-4548-9c06-38e2ea45cc25"
+  ]
+}

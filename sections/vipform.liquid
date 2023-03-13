@@ -1,0 +1,203 @@
+{% comment %}
+<div class="form-header">
+  <a href="/"><img src="https://cdn.shopify.com/s/files/1/0552/1414/5665/files/JUST_4_JETS_.png_transperent_180x.png?v=1659524533">
+  </a>
+  </div>
+  {% endcomment %}
+<div class="top-banner-vendor">
+<h1>{{ section.settings.title }}</h1>
+  <p>{{ section.settings.body }}</p>
+</div>
+{{ section.settings.formid }}
+{% comment %}
+{% form 'contact' %}
+  {{ form.errors | default_errors }}
+<div class="my-flex">
+  <div class="col-50">
+    <label  id="name">First Name</label>
+    <input type="text" name="contact[First_Name]" id="name" required="required">
+</div>
+   <div class="col-50">
+    <label id="last">Last Name</label>
+    <input type="text" name="contact[Last_Name]" id="last" required="required">
+</div>
+</div>
+<div class="m-mol">
+  <label id="contact">Crew Contact details: (Mobile only for whatsapp use)</label>
+    <input type="text" name="contact[contact]" id="contact" required="required">
+    </div>
+  <div class="my-flex">
+    <div class="col-50">
+        <label for="Company">Company </label>
+    <select id="company"  name="contact[Company_Name]" required="required">
+      <option>Private Owner</option>
+      <option>Charter Company</option>
+    </select>
+    </div>
+    <div class="col-50">
+        <label for="cname">Company Name </label>
+    <input type="text" name="contact[Company_Name]" id="cname" required="required">
+    </div>
+</div>
+    <div class="m-mol">
+          <label for="atype">Aircraft Type </label>
+    <input type="text" name="contact[Aircraft_Type]" id="atype" required="required">
+        </div>
+        <div class="m-mol">
+  <label for="aregistration">Aircraft registration:  </label>
+    <input type="text" name="contact[Aircraft_registration]" id="aregistration" required="required">
+    </div>
+  <div class="my-flex">
+    <div class="col-50">
+    <label for="ETD">ETD:  </label>
+    <input type="time"name="contact[ETD]" id="ETD">
+    </div>
+    <div class="col-50">
+  <label for="DepartureDate">Departure Date:  </label>
+    <input type="date" name="contact[Departure_Date]" id="DepartureDate" required="required">
+    </div>
+</div>
+    <div class="m-mol">
+  <label for="DepartureAirport">Departure Airport</label>
+    <select id="DepartureAirport" name="contact[Departure_Airport]" required="required" >
+      <option>Abu Dhabi International Airport</option>
+      <option>Bateen Airport</option>
+        <option>Al Ain Airport</option>
+      <option>Dalma Airport</option>
+        <option>Fujairah International Airport</option>
+      <option>Dubai International Airport</option>
+       <option>Sir Bani Yas Airport</option>
+       <option>Ras Al Khaimah Airport</option>
+       <option>Sharjah International Airport</option>
+    </select>
+    </div>
+    <div class="m-mol">
+    <label for="Paxload">Pax load </label>
+    <input type="text" name="Pax load" id="Paxload"  name="contact[Paxload]" required="required">
+    </div>
+  <div class="my-flex">
+    <div class="col-50">
+    <label for="Deliverylocation">Delivery location </label>
+    <select id="Deliverylocation" name="contact[Delivery_location]" required="required">
+      <option>Residential</option>
+      <option>Hotel</option>
+        <option>FBO </option>
+    </select>
+    </div>
+    <div class="col-50">
+  <label for="Concierger">Concierge related service is for </label>
+    <select id="Concierger" name="contact[Concierger]" required="required">
+      <option>Celebrations</option>
+      <option>Flowers  </option>
+        <option>Menu creation & consulting  </option>
+      <option>Specialty Food </option>
+      <option>Print Specific </option>
+        <option>Kids Specific  </option>
+      <option>Pets Specific </option>
+      <option>Interior Sourcing  </option>
+        <option>Other  </option>
+    </select>
+    </div>
+  </div>
+    <div class="m-mol">
+   <label for="request">Please share your request brief to ensure seamless service. </label>
+  <textarea rows="4" cols="50" id="request" name="contact[body]" required="required"></textarea>
+  </div>
+  <div class="btn-submit">
+    <button type="submit">Submit</button>
+  </div>
+{% endform %}
+{% endcomment %}
+{% schema %}
+{
+  "name": "Vip form",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "heading"
+    },
+    {
+      "type": "html",
+      "id": "body",
+      "label": "info"
+    },
+    {
+      "type": "html",
+      "id": "formid",
+      "label": "form id"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vip form"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.m-mol {
+    display: flex;
+    flex-direction: column;
+   padding:10px;
+}
+.col-50 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  padding:10px;
+}
+  form {
+    width: 70%;
+    margin: auto;
+}
+  .btn-submit button {
+    padding: 4px;
+    margin: 25px 10px 40px;
+    width: -webkit-fill-available;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+  lable {
+    font-size: 16px;
+}
+  select, input, textarea { 
+    background: transparent;
+    font-size: 17px;
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+  input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: 0;
+  }
+  .form-header img {
+    width: 150px;
+    margin: auto;
+}
+.form-header {
+    margin-bottom: 40px;
+    background: black;
+    padding: 20px;
+}
+.top-banner-vendor {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top-banner-vendor h1 {
+    margin-bottom: 20px;
+}
+  @media (min-width: 751px){
+  .contact-form:not(.contact-form--no-image) {
+    grid-auto-flow: unset;
+    grid-auto-columns: unset;
+}}
+  
+</style>

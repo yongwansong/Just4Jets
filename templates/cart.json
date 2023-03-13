@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "order-notes": {
+          "type": "order-notes",
+          "disabled": true,
+          "settings": {}
+        },
+        "subtotal-price": {
+          "type": "subtotal-price",
+          "settings": {}
+        },
+        "checkout-button": {
+          "type": "checkout-button",
+          "settings": {
+            "show_dynamic_checkout_buttons": false
+          }
+        },
+        "installments-banner": {
+          "type": "installments-banner",
+          "settings": {}
+        },
+        "express-payment-icons": {
+          "type": "express-payment-icons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "order-notes",
+        "subtotal-price",
+        "checkout-button",
+        "installments-banner",
+        "express-payment-icons"
+      ],
+      "settings": {
+        "shopping_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "shipping-calculator": {
+      "type": "shipping-calculator",
+      "disabled": true,
+      "settings": {
+        "collapse_on_mobile": true,
+        "heading": "Estimate shipping rates",
+        "default_country": "United States"
+      }
+    },
+    "cart-recommendations": {
+      "type": "cart-recommendations",
+      "settings": {
+        "layout": "full",
+        "slider_large": true,
+        "slider_mobile": true,
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_text": false,
+        "title": "You may also like",
+        "image_container_ratio": "square",
+        "fit_image_to_container": false,
+        "image_padding": 5,
+        "enable_second_image_on_hover": true,
+        "color_scheme": "inverse",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "bab06e57-99b6-4e57-9ff1-5781c8d7d35e": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<style>\n.shopify-section--main-cart {\n    background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1414\/5665\/files\/shutterstock_2168729047_1_1.png?v=1667193348);\n    background-size: 300px;\n    background-repeat: no-repeat;\n    background-position: center top;\n}\n@media only screen and (max-width: 600px) {\n.shopify-section--main-cart {\n    background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1414\/5665\/files\/shutterstock_2168729047_1_1.png?v=1667193348);\n    background-size: 150px;\n    background-repeat: no-repeat;\n    background-position: top right;\n}\n}\n<\/style>",
+        "layout": "full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shipping-calculator",
+    "cart-recommendations",
+    "bab06e57-99b6-4e57-9ff1-5781c8d7d35e"
+  ]
+}

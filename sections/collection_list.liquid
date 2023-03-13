@@ -1,0 +1,139 @@
+<div class="sec-three">
+  <h1>SHOP <span>NOW</span></h1>
+    <div class="my-flex">
+    <a href="{{ section.settings.link1 }}" class="col-flex">
+      <div class="coll-1">
+          <div class="btn-cover">
+          <img src="{{ section.settings.col1 | img_url: "master" }}" class="left-class-image"> 
+        <div class="hov-d">
+          <p>{{ section.settings.text1 }} </p>
+        </div>
+          </div>
+      </div>
+    </a>
+      <div class="col-flex">
+        <div class="my-flex inner-flex">
+     <a href="{{ section.settings.link2 }}" class="col-flex mr-b">
+      <div class="btn-cover">
+       <img src="{{ section.settings.col2 | img_url: "master" }}">
+       <div class="hov-d">
+          <p>{{ section.settings.text2 }} </p>
+        </div>
+    </div>
+    </a>
+           <a href="{{ section.settings.link3 }}" class="col-flex mr-b">
+            <div class="btn-cover">
+        <img src="{{ section.settings.col3 | img_url: "master" }}">
+             <div class="hov-d">
+          <p>{{ section.settings.text3 }} </p>
+        </div>
+            </div>
+    </a>
+          <a href="{{ section.settings.link4 }}" class="col-flex">
+            <div class="btn-cover">
+       <img src="{{ section.settings.col4 | img_url: "master" }}">
+             <div class="hov-d">
+          <p>{{ section.settings.text4 }} </p>
+        </div>
+            </div>
+    </a>
+          <a href="{{ section.settings.link5 }}" class="col-flex">
+            <div class="btn-cover">
+        <img src="{{ section.settings.col5 | img_url: "master" }}">
+             <div class="hov-d">
+          <p>{{ section.settings.text5 }} </p>
+        </div>
+            </div>
+    </a>
+        </div>
+    </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "collection list",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "col1",
+      "label": "collection image"
+    },
+   {
+      "type": "text",
+      "id": "text1",
+      "label": "collection name"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "collection link"
+    },
+    {
+      "type": "image_picker",
+      "id": "col2",
+      "label": "collection image"
+    },
+   {
+      "type": "text",
+      "id": "text2",
+      "label": "collection name"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "collection link"
+    },
+    {
+      "type": "image_picker",
+      "id": "col3",
+      "label": "collection image"
+    },
+   {
+      "type": "text",
+      "id": "text3",
+      "label": "collection name"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "collection link"
+    },
+    {
+      "type": "image_picker",
+      "id": "col4",
+      "label": "collection image"
+    },
+   {
+      "type": "text",
+      "id": "text4",
+      "label": "collection name"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "collection link"
+    },
+    {
+      "type": "image_picker",
+      "id": "col5",
+      "label": "collection image"
+    },
+   {
+      "type": "text",
+      "id": "text5",
+      "label": "collection name"
+    },
+    {
+      "type": "url",
+      "id": "link5",
+      "label": "collection link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "collection list"
+    }
+  ]
+}
+{% endschema %}

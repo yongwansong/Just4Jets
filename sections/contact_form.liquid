@@ -1,0 +1,92 @@
+<div class="banner-contact" style="background:url({{ section.settings.bannerimg | img_url: 'master' }})">
+  <div class="flecx-float">
+  <h1 style="color:{{ section.settings.textcolor}}">{{ section.settings.bannertext}}</h1>
+  <div class="my-contact">
+    {% if section.settings.btn1 != blank %}
+   <a href="{{ section.settings.bannerurl1 }}"> <div class="con-btn">{{ section.settings.btn1}}</div></a>
+    {% endif %}
+   {% if section.settings.btn2 != blank %} 
+   <a href="{{ section.settings.bannerurl2 }}"><div class="con-btn">{{ section.settings.btn2}}</div></a>
+        {% endif %}
+  </div>
+</div>
+</div>
+<style>
+  .banner-contact {
+    height: 400px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+  .flecx-float {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  .flecx-float h1 {
+    font-weight: 600;
+}
+  .my-contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  .my-contact div {
+    background: white;
+    font-size: 17px;
+    width: 194px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    margin-top: 43px;
+}
+  </style>
+{% schema %}
+{
+  "name": "contact us banner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bannerimg",
+      "label": "banner img"
+    },
+    {
+      "type": "color",
+      "id": "textcolor",
+      "label": "heading color"
+    },
+    {
+      "type": "text",
+      "id": "bannertext",
+      "label": "banner text"
+    },
+    {
+      "type": "url",
+      "id": "bannerurl1",
+      "label": "banner url"
+    },
+    {
+      "type": "text",
+      "id": "btn2",
+      "label": "button 2"
+    },
+    {
+      "type": "url",
+      "id": "bannerurl2",
+      "label": "banner url"
+    },
+    {
+      "type": "text",
+      "id": "btn1",
+      "label": "button 2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "contact us banner"
+    }
+  ]
+}
+{% endschema %}

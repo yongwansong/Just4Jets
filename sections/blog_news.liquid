@@ -1,0 +1,64 @@
+<div class="sec-six sec-fourth">
+    <div class="my-flex">
+      <div class="col-flex">
+         <div class="my-flex my-blog">
+         
+           {%- assign blog = blogs[section.settings.blog] -%}
+                    {%- for article in blog.articles limit: 2 -%}
+                       <div class="col-flex">
+           <div class="btn-cover">
+           <img src="{{ article.image | img_url: 'master' }}">
+           <h3>{{ article.title }}</h3>
+            <a href="{{ article.url }}">Read more</a>
+           </div>
+          </div> 
+
+        
+                    {%- endfor -%}
+        
+         </div>
+     
+      </div>
+    <div class="col-flex">
+      <div class="flost">
+        <h1> {{ section.settings.text1 }}</h1>
+      <p> {{ section.settings.info }}</p>
+     <a href="{{ section.settings.link1 }}">read more</a>
+      </div>
+    </div>
+    
+    </div>
+</div>
+{% schema %}
+{
+  "name": "new & blogs",
+  "tag": "section",
+  "settings": [
+     {
+      "type": "blog",
+      "id": "blog",
+      "label": " heading"
+    },
+      {
+      "type": "text",
+      "id": "text1",
+      "label": " heading"
+    },
+   {
+      "type": "text",
+      "id": "info",
+      "label": "info"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "new & blogs"
+    }
+  ]
+}
+{% endschema %}

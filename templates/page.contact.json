@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "e3b09498-4637-44d1-a051-b4b6bc7deefd": {
+      "type": "contact_form",
+      "settings": {
+        "bannerimg": "shopify:\/\/shop_images\/240_F_287936574_1hcLLZYcQwJYOMV5mxTqMof6Ybk27Doy.jpg",
+        "textcolor": "#ffffff",
+        "bannertext": "HOW CAN WE HELP YOU?",
+        "bannerurl1": "",
+        "btn2": "",
+        "bannerurl2": "#",
+        "btn1": ""
+      }
+    },
+    "main": {
+      "type": "contact-form",
+      "disabled": true,
+      "blocks": {
+        "text-field-1": {
+          "type": "text-field",
+          "settings": {
+            "required": false,
+            "multi_line_field": false,
+            "title": "Name"
+          }
+        }
+      },
+      "block_order": [
+        "text-field-1"
+      ],
+      "settings": {
+        "layout": "full",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "center_heading_text": true,
+        "title": "Contact",
+        "heading_size": "h2",
+        "text": "",
+        "text_style": "large-subtext",
+        "image_height_large": "medium",
+        "image_height_mobile": "medium",
+        "form_first": false,
+        "soft_background": "column",
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061c2f",
+        "color_accent": "#0d91bd",
+        "color_background": "#ffffff",
+        "color_gradient": ""
+      }
+    },
+    "23daba3f-5d29-4e5c-9b19-24638e9106f8": {
+      "type": "vipform",
+      "settings": {
+        "title": "",
+        "body": "Your inquiry is our priority. \n<br>\nPlease fill the form below and one our crew will revert back",
+        "formid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"3iqwmmLfccZlG40qMzzjSw\"><\/div>"
+      }
+    },
+    "c2bdee60-bdd9-4a73-8934-4f0539f52920": {
+      "type": "contact-ways",
+      "settings": {
+        "text1": "Email",
+        "banner1": "shopify:\/\/shop_images\/air.png",
+        "url1": "mailto:vip@just4jets.com",
+        "text2": "Whatsapp or Call on +971 50 6246209",
+        "banner2": "shopify:\/\/shop_images\/air_15f1844e-227d-40aa-979a-41a91b2009b2.png",
+        "url2": "https:\/\/wa.me\/+971506246209?text=Hi!",
+        "text3": "@Just4Jets",
+        "banner3": "shopify:\/\/shop_images\/air_8f4adae6-9b95-4021-9e5d-2c7ec230287a.png",
+        "url3": "https:\/\/www.instagram.com\/just4jets"
+      }
+    }
+  },
+  "order": [
+    "e3b09498-4637-44d1-a051-b4b6bc7deefd",
+    "main",
+    "23daba3f-5d29-4e5c-9b19-24638e9106f8",
+    "c2bdee60-bdd9-4a73-8934-4f0539f52920"
+  ]
+}

@@ -1,0 +1,47 @@
+<div class="sec-second">
+  <div class="my-flex">
+    <div class="col-flex">
+    
+     <div class="btn-cover"> <img src="{{ section.settings.image_url | img_url: "master" }}" width="100%"></div>
+    </div>
+    <div class="col-flex">
+      <div class="flost">    <h1>{{ section.settings.banner-title }}</h1>
+    <p>{{ section.settings.banner-info}}</p>
+     <a href="{{ section.settings.link1}}">read more</a>
+      </div>
+      </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "about us",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "banner-title",
+      "label": "banner title"
+    },
+    {
+      "type": "text",
+      "id": "banner-info",
+      "label": "Information"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "link 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_url",
+      "label": "side image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "about us"
+    }
+  ]
+}
+{% endschema %}

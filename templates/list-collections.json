@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "header-collection": {
+      "type": "header-collection",
+      "settings": {
+        "layout": "full",
+        "height": "auto",
+        "text_position_large": "center start",
+        "show_description": true,
+        "show_image": true,
+        "padding_top": 3,
+        "padding_bottom": 3,
+        "heading_size": "h1",
+        "description_size": "regular",
+        "image_override": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_29.png",
+        "image_style": "background",
+        "image_padding": true,
+        "enable_parallax": false,
+        "overlay": 7,
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061C2F",
+        "color_background": "#FFFFFF",
+        "color_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "layout": "full",
+        "display": "all",
+        "sort": "alphabetical",
+        "collection_list": [],
+        "columns_large": "4",
+        "columns_mobile": "1",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "card_layout": "gradient",
+        "image_ratio": "square",
+        "button_alignment": "center",
+        "image_padding": 0,
+        "overlay": 50,
+        "remove_title_arrow": false,
+        "inverse_colors": false,
+        "color_scheme": "default",
+        "custom_colors": false,
+        "color_foreground": "#061C2F",
+        "color_background": "#FFFFFF",
+        "color_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "header-collection",
+    "main"
+  ]
+}

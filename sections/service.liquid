@@ -1,0 +1,87 @@
+<div class="sec-fourth">
+    <div class="float-vvip"><span>V</span><span>V</span><span>I</span><span>P</span></div>
+    <div class="my-flex">
+    <div class="col-flex">
+      <div class="flost">
+        <h1>{{ section.settings.text1 }}</h1>
+      <p>{{ section.settings.text2 }}</p>
+     <a href="{{ section.settings.link1 }}">read more</a>
+      </div>
+    </div>
+      <div class="col-flex">
+         <div class="my-flex">
+          <div class="my-flex-d" id="col-sd-1">
+                <div class="btn-cover">
+               <img src="{{ section.settings.col1 | img_url: "master" }}" class="bing-img-1">
+             </div>
+           
+                <div class="btn-cover">
+               <img src="{{ section.settings.col2 | img_url: "master" }}" class="bing-img-2">
+            
+             </div>
+          </div>
+         <div class="my-flex-d" id="col-sd-2">
+           
+                <div class="btn-cover">
+                <img src="{{ section.settings.col3 | img_url: "master" }}" class="bing-img-3">
+              </div>
+          
+            
+                <div class="btn-cover">
+               <img src="{{ section.settings.col4 | img_url: "master" }}" class="bing-img-4">
+           
+             </div>
+      
+          </div>
+         </div>
+    </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "my service",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "col1",
+      "label": " image"
+    },
+     {
+      "type": "image_picker",
+      "id": "col2",
+      "label": " image"
+    },
+     {
+      "type": "image_picker",
+      "id": "col3",
+      "label": " image"
+    },
+     {
+      "type": "image_picker",
+      "id": "col4",
+      "label": " image"
+    },
+   {
+      "type": "text",
+      "id": "text1",
+      "label": "title"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "info"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "my service"
+    }
+  ]
+}
+{% endschema %}
